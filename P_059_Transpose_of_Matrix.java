@@ -2,7 +2,7 @@ public class P_059_Transpose_of_Matrix {
 
     // Todo: https://practice.geeksforgeeks.org/problems/transpose-of-matrix-1587115621/1
 
-    // ! T.C = O(n*n) & S.C = O(n*n).
+    // * T.C = O(n*n) & S.C = O(n*n).
     public static void transpose1(int[][] mat, int n) {
         int[][] temp = new int[n][n];
         for (int i = 0; i < n; i++) {
@@ -18,7 +18,7 @@ public class P_059_Transpose_of_Matrix {
         }
     }
 
-    // ! T.C = O(n*n) & S.C = O(1).
+    // ^ T.C = O(n*n) & S.C = O(1).
     public static void transpose2(int[][] mat, int n) {
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
