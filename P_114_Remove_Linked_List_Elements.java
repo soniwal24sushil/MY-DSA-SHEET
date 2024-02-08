@@ -4,18 +4,19 @@ public class P_114_Remove_Linked_List_Elements {
 
     // * T.C = O(n) & S.C = O(1).
     public static ListNode removeElements(ListNode head, int val) {
-        while (head != null && head.val == val) {
-            head = head.next;
-        }
-        ListNode temp = head;
-        while (temp != null && temp.next != null) {
-            if (temp.next.val == val) {
-                temp.next = temp.next.next;
-            } else {
-                temp = temp.next;
+        ListNode dummy = new ListNode(-1);
+        ListNode node = dummy;
+
+        ListNode current = head;
+        while (current != null) {
+            if (current.val != val) {
+                node.next = current;
+                node = current;
             }
+            current = current.next;
         }
-        return head;
+        node.next = null;
+        return dummy.next;
     }
 
     public static void main(String[] args) {
