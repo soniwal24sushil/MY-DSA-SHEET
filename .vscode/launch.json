@@ -1,0 +1,826 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "P_121_Segregate_Even_And_Odd_Nodes_In_LinkedList",
+            "request": "launch",
+            "mainClass": "P_121_Segregate_Even_And_Odd_Nodes_In_LinkedList",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_121_Odd_Even_Linked_List",
+            "request": "launch",
+            "mainClass": "P_121_Odd_Even_Linked_List",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "P_001_Reverse_An_Array",
+            "request": "launch",
+            "mainClass": "P_001_Reverse_An_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_002_Min_Max_Element_In_Array",
+            "request": "launch",
+            "mainClass": "P_002_Min_Max_Element_In_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_003_Check_Rotated_Sorted_Array",
+            "request": "launch",
+            "mainClass": "P_003_Check_Rotated_Sorted_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_004_Number_Of_Good_Pairs",
+            "request": "launch",
+            "mainClass": "P_004_Number_Of_Good_Pairs",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_005_Remove_Duplicates_From_Sorted_Array",
+            "request": "launch",
+            "mainClass": "P_005_Remove_Duplicates_From_Sorted_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_006_Two_Sum",
+            "request": "launch",
+            "mainClass": "P_006_Two_Sum",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_007_Count_Pair_With_Given_Sum",
+            "request": "launch",
+            "mainClass": "P_007_Count_Pair_With_Given_Sum",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_008_Contains_Duplicate",
+            "request": "launch",
+            "mainClass": "P_008_Contains_Duplicate",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_009_Move_Zeros",
+            "request": "launch",
+            "mainClass": "P_009_Move_Zeros",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_010_Rotate_Array",
+            "request": "launch",
+            "mainClass": "P_010_Rotate_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_011_Product_Of_Array_Except_Self",
+            "request": "launch",
+            "mainClass": "P_011_Product_Of_Array_Except_Self",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_012_Missing_Number",
+            "request": "launch",
+            "mainClass": "P_012_Missing_Number",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_013_Sort_Colors",
+            "request": "launch",
+            "mainClass": "P_013_Sort_Colors",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_014_Majority_Element",
+            "request": "launch",
+            "mainClass": "P_014_Majority_Element",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_015_Majority_Element_2",
+            "request": "launch",
+            "mainClass": "P_015_Majority_Element_2",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_016_Best_Time_To_Buy_And_Sell_Stock_1",
+            "request": "launch",
+            "mainClass": "P_016_Best_Time_To_Buy_And_Sell_Stock_1",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_017_Rearrange_Array_Elements_By_Sign",
+            "request": "launch",
+            "mainClass": "P_017_Rearrange_Array_Elements_By_Sign",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_018_Pascal_Triangle_1",
+            "request": "launch",
+            "mainClass": "P_018_Pascal_Triangle_1",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_019_Pascal_Triangle_2",
+            "request": "launch",
+            "mainClass": "P_019_Pascal_Triangle_2",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_020_Next_Permutation",
+            "request": "launch",
+            "mainClass": "P_020_Next_Permutation",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_021_Square_Root_of_X",
+            "request": "launch",
+            "mainClass": "P_021_Square_Root_of_X",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_022_Valid_Perfect_Square",
+            "request": "launch",
+            "mainClass": "P_022_Valid_Perfect_Square",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_023_Two_Sum_Sorted",
+            "request": "launch",
+            "mainClass": "P_023_Two_Sum_Sorted",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_024_Ceil_and_Floor_In_Sorted_Array",
+            "request": "launch",
+            "mainClass": "P_024_Ceil_and_Floor_In_Sorted_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_025_Search_Insert_Position",
+            "request": "launch",
+            "mainClass": "P_025_Search_Insert_Position",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_026_Peak_Index_In_Mountain_Array",
+            "request": "launch",
+            "mainClass": "P_026_Peak_Index_In_Mountain_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_027_Find_Peak_Element",
+            "request": "launch",
+            "mainClass": "P_027_Find_Peak_Element",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_028_First_and_Last_Position_of_Element_in_Sorted_Array",
+            "request": "launch",
+            "mainClass": "P_028_First_and_Last_Position_of_Element_in_Sorted_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_029_Single_Element_in_a_Sorted_Array",
+            "request": "launch",
+            "mainClass": "P_029_Single_Element_in_a_Sorted_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_030_Search_in_Rotated_Sorted_Array",
+            "request": "launch",
+            "mainClass": "P_030_Search_in_Rotated_Sorted_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_031_Search_in_Rotated_Sorted_Array_With_Duplicates",
+            "request": "launch",
+            "mainClass": "P_031_Search_in_Rotated_Sorted_Array_With_Duplicates",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_032_Find_Minimum_in_Sorted_Array",
+            "request": "launch",
+            "mainClass": "P_032_Find_Minimum_in_Sorted_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_033_Find_Minimum_in_Sorted_Array_With_Duplicates",
+            "request": "launch",
+            "mainClass": "P_033_Find_Minimum_in_Sorted_Array_With_Duplicates",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_034_Number_of_Rotations",
+            "request": "launch",
+            "mainClass": "P_034_Number_of_Rotations",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_035_Max_Consecutive_Ones",
+            "request": "launch",
+            "mainClass": "P_035_Max_Consecutive_Ones",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_036_Koko_Eating_Bananas",
+            "request": "launch",
+            "mainClass": "P_036_Koko_Eating_Bananas",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_037_Find_The_Smallest_Divisor_Given_A_Threshold",
+            "request": "launch",
+            "mainClass": "P_037_Find_The_Smallest_Divisor_Given_A_Threshold",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_038_Book_Allocation",
+            "request": "launch",
+            "mainClass": "P_038_Book_Allocation",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_039_Split_Array_Largest_Sum",
+            "request": "launch",
+            "mainClass": "P_039_Split_Array_Largest_Sum",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_040_Ship_Capacity",
+            "request": "launch",
+            "mainClass": "P_040_Ship_Capacity",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_041_Minimum_Number_Of_Days_To_Make_M_Bouquets",
+            "request": "launch",
+            "mainClass": "P_041_Minimum_Number_Of_Days_To_Make_M_Bouquets",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_042_Aggressive_Cows",
+            "request": "launch",
+            "mainClass": "P_042_Aggressive_Cows",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_043_First_Missing_Positive",
+            "request": "launch",
+            "mainClass": "P_043_First_Missing_Positive",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_044_Find_The_Duplicate_Number",
+            "request": "launch",
+            "mainClass": "P_044_Find_The_Duplicate_Number",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_045_Find_All_Duplicates_In_An_Array",
+            "request": "launch",
+            "mainClass": "P_045_Find_All_Duplicates_In_An_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_046_Find_All_Numbers_Disappeared_In_An_Array",
+            "request": "launch",
+            "mainClass": "P_046_Find_All_Numbers_Disappeared_In_An_Array",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_047_Find_Missing_Repeating_Number",
+            "request": "launch",
+            "mainClass": "P_047_Find_Missing_Repeating_Number",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_054_Search_in_a_Matrix",
+            "request": "launch",
+            "mainClass": "P_054_Search_in_a_Matrix",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_055_Row_With_Minimum_Number_of_1s",
+            "request": "launch",
+            "mainClass": "P_055_Row_With_Minimum_Number_of_1s",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_056_Spiral_Matrix",
+            "request": "launch",
+            "mainClass": "P_056_Spiral_Matrix",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_057_Kth_Element_of_a_Spiral_Matrix",
+            "request": "launch",
+            "mainClass": "P_057_Kth_Element_of_a_Spiral_Matrix",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_058_Spiral_Matrix_2",
+            "request": "launch",
+            "mainClass": "P_058_Spiral_Matrix_2",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_059_Transpose_of_Matrix",
+            "request": "launch",
+            "mainClass": "P_059_Transpose_of_Matrix",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_060_Rotate_Image",
+            "request": "launch",
+            "mainClass": "P_060_Rotate_Image",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_061_Determine_Whether_Matrix_Can_Be_Obtain_By_Rotation",
+            "request": "launch",
+            "mainClass": "P_061_Determine_Whether_Matrix_Can_Be_Obtain_By_Rotation",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_062_Lucky_Number_In_A_Matrix",
+            "request": "launch",
+            "mainClass": "P_062_Lucky_Number_In_A_Matrix",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_063_Boundary_Traversal",
+            "request": "launch",
+            "mainClass": "P_063_Boundary_Traversal",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_064_Diagonal_Traversal",
+            "request": "launch",
+            "mainClass": "P_064_Diagonal_Traversal",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_065_Set_Matrix_Zeros",
+            "request": "launch",
+            "mainClass": "P_065_Set_Matrix_Zeros",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_066_Reverse_a_String",
+            "request": "launch",
+            "mainClass": "P_066_Reverse_a_String",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_067_Reverse_Vowels_of_String",
+            "request": "launch",
+            "mainClass": "P_067_Reverse_Vowels_of_String",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_068_Reverse_Words_in_a_String",
+            "request": "launch",
+            "mainClass": "P_068_Reverse_Words_in_a_String",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_069_Valid_Palindrome",
+            "request": "launch",
+            "mainClass": "P_069_Valid_Palindrome",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_070_Length_of_Last_Word",
+            "request": "launch",
+            "mainClass": "P_070_Length_of_Last_Word",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_071_Remove_Outermost_Parentheses",
+            "request": "launch",
+            "mainClass": "P_071_Remove_Outermost_Parentheses",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_072_Largest_Odd_Number_in_a_String",
+            "request": "launch",
+            "mainClass": "P_072_Largest_Odd_Number_in_a_String",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_073_Longest_Common_Prefix",
+            "request": "launch",
+            "mainClass": "P_073_Longest_Common_Prefix",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_074_Isomorphic_Strings",
+            "request": "launch",
+            "mainClass": "P_074_Isomorphic_Strings",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_075_Rotate_String",
+            "request": "launch",
+            "mainClass": "P_075_Rotate_String",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_076_Valid_Anagram",
+            "request": "launch",
+            "mainClass": "P_076_Valid_Anagram",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_077_Sort_Characters_By_Frequency",
+            "request": "launch",
+            "mainClass": "P_077_Sort_Characters_By_Frequency",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_078_Longest_Palindrome",
+            "request": "launch",
+            "mainClass": "P_078_Longest_Palindrome",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_079_Sorting_The_Sentence",
+            "request": "launch",
+            "mainClass": "P_079_Sorting_The_Sentence",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_080_Pangram_Checking",
+            "request": "launch",
+            "mainClass": "P_080_Pangram_Checking",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_081_Fibonacci_Number",
+            "request": "launch",
+            "mainClass": "P_081_Fibonacci_Number",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_082_Climbing_Stairs",
+            "request": "launch",
+            "mainClass": "P_082_Climbing_Stairs",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_083_Power_Of_Two",
+            "request": "launch",
+            "mainClass": "P_083_Power_Of_Two",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_084_Power_Of_Three",
+            "request": "launch",
+            "mainClass": "P_084_Power_Of_Three",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_085_Power_Of_Four",
+            "request": "launch",
+            "mainClass": "P_085_Power_Of_Four",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_086_Subsets_1",
+            "request": "launch",
+            "mainClass": "P_086_Subsets_1",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_087_Subsets_2",
+            "request": "launch",
+            "mainClass": "P_087_Subsets_2",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_088_Subset_Sums_1",
+            "request": "launch",
+            "mainClass": "P_088_Subset_Sums_1",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_089_Subset_Sums_2",
+            "request": "launch",
+            "mainClass": "P_089_Subset_Sums_2",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_090_Generate_Parentheses",
+            "request": "launch",
+            "mainClass": "P_090_Generate_Parentheses",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_091_Target_Sum",
+            "request": "launch",
+            "mainClass": "P_091_Target_Sum",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_092_Permutations_1",
+            "request": "launch",
+            "mainClass": "P_092_Permutations_1",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_093_Permutations_2",
+            "request": "launch",
+            "mainClass": "P_093_Permutations_2",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_094_Permutations_of_a_String",
+            "request": "launch",
+            "mainClass": "P_094_Permutations_of_a_String",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_095_Ways_To_Sum_N",
+            "request": "launch",
+            "mainClass": "P_095_Ways_To_Sum_N",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_096_Combination_Sum_1",
+            "request": "launch",
+            "mainClass": "P_096_Combination_Sum_1",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_097_Combination_Sum_2",
+            "request": "launch",
+            "mainClass": "P_097_Combination_Sum_2",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_098_Combination_Sum_3",
+            "request": "launch",
+            "mainClass": "P_098_Combination_Sum_3",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_099_Palindrome_Partitioning",
+            "request": "launch",
+            "mainClass": "P_099_Palindrome_Partitioning",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_100_Merge_Sort",
+            "request": "launch",
+            "mainClass": "P_100_Merge_Sort",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_101_Quick_Sort",
+            "request": "launch",
+            "mainClass": "P_101_Quick_Sort",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_102_Tower_of_Hanoi",
+            "request": "launch",
+            "mainClass": "P_102_Tower_of_Hanoi",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_103_Letter_Combinations_of_a_Phone_Number",
+            "request": "launch",
+            "mainClass": "P_103_Letter_Combinations_of_a_Phone_Number",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_104_Rat_in_a_Maze",
+            "request": "launch",
+            "mainClass": "P_104_Rat_in_a_Maze",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_105_N_Queens_1",
+            "request": "launch",
+            "mainClass": "P_105_N_Queens_1",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_106_N_Queens_2",
+            "request": "launch",
+            "mainClass": "P_106_N_Queens_2",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_107_Binary_to_Integer",
+            "request": "launch",
+            "mainClass": "P_107_Binary_to_Integer",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_108_Reverse_a_Linked_List",
+            "request": "launch",
+            "mainClass": "P_108_Reverse_a_Linked_List",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_109_Delete_Node_Without_Head_Pointer",
+            "request": "launch",
+            "mainClass": "P_109_Delete_Node_Without_Head_Pointer",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_110_Length_of_Linked_List",
+            "request": "launch",
+            "mainClass": "P_110_Length_of_Linked_List",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_111_Remove_Duplicates_from_Sorted_List",
+            "request": "launch",
+            "mainClass": "P_111_Remove_Duplicates_from_Sorted_List",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_112_Linked_List_Cycle",
+            "request": "launch",
+            "mainClass": "P_112_Linked_List_Cycle",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_113_Middle_of_the_Linked_List",
+            "request": "launch",
+            "mainClass": "P_113_Middle_of_the_Linked_List",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_114_Remove_Linked_List_Elements",
+            "request": "launch",
+            "mainClass": "P_114_Remove_Linked_List_Elements",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_115_Palindrome_Linked_List",
+            "request": "launch",
+            "mainClass": "P_115_Palindrome_Linked_List",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_116_Delete_The_Middle_of_the_Linked_List",
+            "request": "launch",
+            "mainClass": "P_116_Delete_The_Middle_of_the_Linked_List",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_117_Rotate_List",
+            "request": "launch",
+            "mainClass": "P_117_Rotate_List",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_118_Remove_Duplicates_From_Sorted_List_2",
+            "request": "launch",
+            "mainClass": "P_118_Remove_Duplicates_From_Sorted_List_2",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_119_Linked_List_Cycle_2",
+            "request": "launch",
+            "mainClass": "P_119_Linked_List_Cycle_2",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        },
+        {
+            "type": "java",
+            "name": "P_120_Length_of_Loop",
+            "request": "launch",
+            "mainClass": "P_120_Length_of_Loop",
+            "projectName": "DSA_SHEET_23d2f7d9"
+        }
+    ]
+}
