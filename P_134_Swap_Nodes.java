@@ -4,31 +4,55 @@ public class P_134_Swap_Nodes {
 
     // * T.C = O(n) & S.C = O(1).
     public static ListNode swapNodes(ListNode head, int k) {
-        ListNode dummy = new ListNode(0);
-        dummy.next = head;
-
-        ListNode fast = dummy, slow = dummy, first = dummy, second = dummy;
-
-        // Move fast pointer to the kth node from the beginning
-        for (int i = 0; i < k; i++) {
-            fast = fast.next;
+        // Count the total number of nodes in the list
+        int count = 0;
+        ListNode current = head;
+        while (current != null) {
+            current = current.next;
+            count++;
         }
 
-        first = fast;
-
-        // Move fast pointer to the end, maintaining the distance of k
-        while (fast != null) {
-            fast = fast.next;
-            second = slow;
-            slow = slow.next;
+        // If k is greater than the total number of nodes, no swap needed
+        if (count < k) {
+            return head;
         }
 
-        // Swap the values
-        int temp = first.val;
-        first.val = second.next.val;
-        second.next.val = temp;
+        // Initialize pointers for the first and last nodes to be swapped
+        ListNode preFirst = null, firstNode = head;
+        ListNode preSecond = null, secondNode = head;
 
-        return dummy.next;
+        // Move pointers to the respective nodes
+        for (int i = 0; i < k - 1; i++) {
+            preFirst = firstNode;
+            firstNode = firstNode.next;
+        }
+
+        for (int i = 0; i < count - k; i++) {
+            preSecond = secondNode;
+            secondNode = secondNode.next;
+        }
+
+        // Update pointers to perform the swap
+        if (preFirst != null) {
+            preFirst.next = secondNode;
+        }
+        if (preSecond != null) {
+            preSecond.next = firstNode;
+        }
+
+        // Perform the swap of the nodes
+        ListNode temp = firstNode.next;
+        firstNode.next = secondNode.next;
+        secondNode.next = temp;
+
+        // Update head pointer if k is 1 or n
+        if (k == 1) {
+            head = secondNode;
+        }
+        if (count == k) {
+            head = firstNode;
+        }
+        return head;
     }
 
     public static void main(String[] args) {
