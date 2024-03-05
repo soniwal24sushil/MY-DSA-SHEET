@@ -7,20 +7,22 @@ public class P_147_Next_Greater_Element {
 
     // * T.C = O(n) & S.C = O(n).
     public static long[] nextLargerElement(long[] arr, int n) {
-        long[] res = new long[n];
-        Arrays.fill(res, -1);
         Stack<Integer> st = new Stack<>();
-
-        for (int i = 0; i < n; i++) {
-            while (!st.isEmpty() && arr[st.peek()] < arr[i]) {
-                // The nge for the element at the top of the stack is the current element in the
-                // input array.
-                res[st.pop()] = arr[i];
+        long[] ans = new long[n];
+        Arrays.fill(ans, -1);
+        for (int i = n - 1; i >= 0; i--) {
+            long num = arr[i];
+            while (!st.isEmpty() && arr[st.peek()] <= num) {
+                st.pop();
             }
-            // Push the current index into the stack.
+            if (st.isEmpty()) {
+                ans[i] = -1;
+            } else {
+                ans[i] = arr[st.peek()];
+            }
             st.push(i);
         }
-        return res;
+        return ans;
     }
 
     public static void main(String[] args) {
