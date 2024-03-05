@@ -9,23 +9,27 @@ public class P_150_Previous_Smallest_Element {
 
     // * T.C = O(n) & S.C = O(n).
     public static List<Integer> leftSmaller(int n, int arr[]) {
-        int[] res = new int[n];
-        Arrays.fill(res, -1);
+        List<Integer> res = new ArrayList<>();
         Stack<Integer> st = new Stack<>();
-
-        for (int i = n - 1; i >= 0; i--) {
-            while (!st.isEmpty() && arr[st.peek()] > arr[i]) {
-
-                res[st.pop()] = arr[i];
+        int[] ans = new int[n];
+        Arrays.fill(ans, -1);
+        for (int i = 0; i < n; i++) {
+            int num = arr[i];
+            while (!st.isEmpty() && arr[st.peek()] <= num) {
+                st.pop();
             }
-            // Push the current index into the stack.
+            if (st.isEmpty()) {
+                ans[i] = -1;
+            } else {
+                ans[i] = arr[st.peek()];
+            }
             st.push(i);
         }
-        List<Integer> ans = new ArrayList<>();
-        for (int num : res) {
-            ans.add(num);
+
+        for (int num : ans) {
+            res.add(num);
         }
-        return ans;
+        return res;
     }
 
     public static void main(String[] args) {
