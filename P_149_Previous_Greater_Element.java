@@ -12,7 +12,7 @@ public class P_149_Previous_Greater_Element {
         Arrays.fill(ans, -1);
         for (int i = 0; i < n; i++) {
             int num = arr[i];
-            while (!st.isEmpty() && arr[st.peek()] >= num) {
+            while (!st.isEmpty() && arr[st.peek()] <= num) {
                 st.pop();
             }
             if (st.isEmpty()) {
